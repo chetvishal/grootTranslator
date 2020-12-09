@@ -55,23 +55,23 @@ hr {
 
 .primary-link {
     text-decoration: none;
-    color: white;
+    color: black;
     background-color: var(--primary);
     width: max-content;
     min-width: 140px;
     border-radius: 1rem;
     padding: 0.5rem 1rem 0.5rem 1rem;
-    border: 1px solid transparent;
+    border: 2px solid black;
     margin-left: 1rem;
 }
 
 .primary-link:hover{
-    background-color: white;
-    color: var(--primary);
-    border: 1px solid var(--primary);
-    width: max-content;
-    min-width: 140px;
-    border-radius: 1rem;
+    /* background-color: white; */
+    /* color: var(--primary); */
+    /* border: 1px solid var(--primary); */
+    /* width: max-content; */
+    /* min-width: 140px; */
+    /* border-radius: 1rem; */
     cursor: pointer;
 }
 
@@ -229,6 +229,7 @@ textarea {
     margin: 1rem;
     padding: 1rem;
     display: block;
+    border: 3px solid black;
 }
 
 #output {
@@ -237,6 +238,6 @@ textarea {
     margin: 1rem;
     padding: 1rem;
     display: block;
-    border: 1px black solid;
+    border: 3px black solid;
     background-color: white;
 }
